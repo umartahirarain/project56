@@ -1,0 +1,32 @@
+{% extends 'partials/base.html' %}
+
+{% block content %}
+  
+    <!-- Sale & Revenue Start -->
+    <div class="container-fluid">
+
+                <div class="rounded d-flex align-items-center justify-content-between">
+                    <form class="d-none d-md-flex ms-4">
+                        <div class="input-group">
+                            <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                            <input type="email" class="form-control" placeholder="Enter Email" name="email">
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-primary m-2"><i class="fa fa-plus me-2"></i>Add Patient</button>
+                </div>
+    
+        <div class="content-bg mt-2">
+           
+            <div class="rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Total Revenue</p>
+                    <h6 class="mb-0">$1234</h6>
+                </div>
+            </div>
+    </div>
+    </div>
+    <!-- Sale & Revenue End -->
+
+
+    {% endblock %}
